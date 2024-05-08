@@ -7,9 +7,7 @@
 This GitHub repository hosts a web application developed as a technical assignment for the Cybersecurity Engineer position at Sawit Pro. The application allows users to securely upload and store image files while ensuring the confidentiality and integrity of the data. Below are the key features and functionalities of the application:
 
 Features:
-- User Registration & Login: Users can register for an account and securely log in using their credentials. All user credentials are handled securely to prevent unauthorized access.
-  - Utilizes Laravel Jetstream's built-in features for secure user authentication.
-  - Implements password hashing, session management, and CSRF protection to safeguard user credentials and prevent unauthorized access.     
+- User Registration & Login: Users can register for an account and securely log in using their credentials. All user credentials are handled securely to prevent unauthorized access.   
 - Secure Image Upload: Robust security mechanisms are implemented to validate and safely upload image files. The application prevents the upload of potentially malicious or oversized files by implementing strict validation checks.
 - Image Storage: Uploaded images are stored securely and confidentially. Encryption techniques are employed to safeguard the images, ensuring that they remain protected even in the event of a security breach.
 - Image Retrieval: Each user has a personalized gallery space where they can view their uploaded images. The application provides a user-friendly interface for easy navigation and browsing of images.
